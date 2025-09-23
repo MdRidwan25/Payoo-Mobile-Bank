@@ -70,21 +70,15 @@
 
 <div class=" max-w-lg mx-auto  min-h-[240px] p-4  grid grid-cols-3  gap-4">
 
-<div class="border-1 border-[#0808081a] text-center p-3 rounded-xl   ">
+<div id="add-money-defult" class="border-1 border-[#0808081a] text-center p-3 rounded-xl   ">
 
-
-
-
- <img class="mx-auto" src="./assets/wallet1.png" alt="">
+     <img class="mx-auto " src="./assets/wallet1.png" alt="">
 <h2 class="text-[#080808b3]">Add Money</h2>
-
-
-
 
    
 </div>
 
-<div class="border-1 border-[#0808081a] text-center p-3 rounded-xl">
+<div id="cashout-btn" class="border-1 border-[#0808081a] text-center p-3 rounded-xl ">
 
 
     <img class="mx-auto" src="./assets/send1.png" alt="">
@@ -128,12 +122,12 @@
 
 
 
-<section class="all-form-section max-w-lg mx-auto   mt-[50px] w-[450px] h-[510px] mb-[50px]  ">
+<section id="add-money-main" class="all-form-section max-w-lg mx-auto   mt-[50px] w-[450px] h-[510px] mb-[50px]  ">
 
 <!-- Add Money -->
 
-<div>
-<h1 class="font-bold text-[20px]">Add Money</h1>
+<div id="add-money-div" >
+<h1 class="font-bold text-[20px] p-3">Add Money</h1>
 
 <form action="" class="bg-white rounded-2xl p-8    ">
 
@@ -159,7 +153,7 @@
 <div class="mt-[18px]">
 <h1 class="font-semibold">Amount to Add</h1>
 
-<input id="add-amount" type="number" placeholder="Add Amount to withdraw" class="input rounded-3xl mt-[10px] w-full" />
+<input id="add-amount-input" type="number" placeholder="Add Amount to withdraw" class="input rounded-3xl mt-[10px] w-full" />
 
     </div>
 
@@ -181,9 +175,56 @@
 </section>
 
 
+<!-- Cash Out Money Section -->
+
+
+<section id="cash-out" class="all-form-section max-w-lg mx-auto   mt-[50px] w-[450px] h-[510px] mb-[50px] hidden  ">
+
+<!-- Cash Out Money -->
+
+<div>
+<h1 class="font-bold text-[20px] p-3">Cash Out</h1>
+
+<form action="" class="bg-white rounded-2xl p-8    ">
+
+    <div>
+       
+
+    </div>
+    <div class="mt-[18px]">
+<h1 class="font-semibold">Agent Number</h1>
+
+<input id="account-number"  type="number" placeholder="Enter 11 digit account number" class="input rounded-3xl mt-[10px] w-full" />
+
+    </div>
+    
+
+<div class="mt-[18px]">
+<h1 class="font-semibold">Amount to Withdraw</h1>
+
+<input id="add-amount" type="number" placeholder="Add Amount to withdraw" class="input rounded-3xl mt-[10px] w-full" />
+
+    </div>
+
+    <div class="mt-[18px]">
+<h1 class="font-semibold">Pin Number </h1>
+
+<input id="pin-number" type="number" placeholder="Enter 4 digit pin number" class="input rounded-3xl mt-[10px] w-full" />
+
+    </div>
+
+<button id="btn-add-withdraw" type="button" class="btn bg-[#0874f2] mt-5 w-full rounded-3xl color text-white">Withdraw</button>
+</form>
+
+
+</div>
 
 
 
+</section>
+
+
+<!-- End Cash Out Money Section -->
 
 
 
@@ -192,6 +233,8 @@
 
 
 <script src="./home.js"></script>
+
+
 
 </body>
 </html>
