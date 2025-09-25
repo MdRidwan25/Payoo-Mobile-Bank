@@ -99,14 +99,14 @@
 <h2 class="text-[#080808b3]">Get Bonus</h2>
 </div>
 
-<div class="border-1 border-[#0808081a]  text-center p-3 rounded-xl">
+<div id="pay-bill" class="border-1 border-[#0808081a]  text-center p-3 rounded-xl ">
 
 
     <img class="mx-auto" src="./assets/purse1.png" alt="">
 <h2 class="text-[#080808b3]">Pay Bill </h2>
 </div>
 
-<div class="border-1 border-[#0808081a] text-center p-3 rounded-xl">
+<div id="transactions-click" class="border-1 border-[#0808081a] text-center p-3 rounded-xl">
 
 
     <img class="mx-auto" src="./assets/transaction1.png" alt="">
@@ -312,6 +312,217 @@
 
 <!-- Get Bonus Section Is End Here -->
 
+
+
+<!-- Pay Bill Section start here -->
+
+<section id="pay-bill-main" class="all-form-section max-w-lg mx-auto   mt-[50px] w-[450px] h-[510px] mb-[50px] hidden ">
+
+<!-- Add Money -->
+
+<div id="pay-bill-div" >
+<h1 class="font-bold text-[20px] p-3">Pay Bill</h1>
+
+<form action="" class="bg-white rounded-2xl p-8    ">
+
+    <div>
+        <h1 class="font-semibold">Select To Pay</h1>
+
+        <select id="bank-select"  class="select rounded-3xl mt-[10px] w-full">
+  <option  disabled selected>Select Bank</option>
+  <option>DBBL BANK</option>
+  <option>BRACK BANK</option>
+  <option>CITY BANK</option>
+</select>
+
+    </div>
+    <div class="mt-[18px]">
+<h1 class="font-semibold">Biller Account Number</h1>
+
+<input id="account-number"  type="number" placeholder="Enter account number" class="input rounded-3xl mt-[10px] w-full" />
+
+    </div>
+    
+
+<div class="mt-[18px]">
+<h1 class="font-semibold">Amount to Pay</h1>
+
+<input id="pay-bill-input" type="number" placeholder="Add Amount to pay" class="input rounded-3xl mt-[10px] w-full" />
+
+    </div>
+
+    <div class="mt-[18px]">
+<h1 class="font-semibold">Pin Number </h1>
+
+<input id="pin-number" type="number" placeholder="Enter 4 digit pin number" class="input rounded-3xl mt-[10px] w-full" />
+
+    </div>
+
+<button id="btn-pay-bill" type="button" class="btn bg-[#0874f2] mt-5 w-full rounded-3xl color text-white">Pay Now</button>
+</form>
+
+
+</div>
+
+
+
+</section>
+
+<!-- Pay Bill section and here -->
+
+
+
+
+
+
+
+<!-- Transctions Section start here -->
+
+<section id="transctions-form" class="w-[402px] h-[420px] mx-auto hidden">
+
+<div class="flex justify-between m-8">
+
+    <h1 class="font-extrabold">Transaction History</h1>
+
+<p>View All</p>
+
+
+</div>
+
+
+
+<div class="all-bill-class-main">
+
+
+
+
+
+<div class="bill-card-main ">
+
+
+<div class="bill-card mb-3">
+
+<div class="   w-[402px] h-[71px] bg-[#0874f20d] flex gap-3 items-center">
+
+<div class=" flex flex-row justify-start items-center   rounded-[30px] h-[60px] w-[60px] bg-[#FFFFFF] ">
+<img class="h-[45px] w-[45px] ml-[7px]" src="./assets/purse1.png" alt="">
+
+
+
+
+</div>
+<!-- img div end -->
+<div>
+    <h4>Electricity Bill</h4>
+<p>Today 01:44 AM</p>
+</div>
+
+<div class="ml-[170px]">
+
+    <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+
+</div>
+</div>
+
+
+
+</div>
+<div class="bill-card mb-3">
+
+<div class="   w-[402px] h-[71px] bg-[#0874f20d] flex gap-3 items-center">
+
+<div class=" flex flex-row justify-start items-center   rounded-[30px] h-[60px] w-[60px] bg-[#FFFFFF] ">
+<img class="h-[45px] w-[45px] ml-[7px]" src="./assets/purse1.png" alt="">
+
+
+
+
+</div>
+<!-- img div end -->
+<div>
+    <h4>Electricity Bill</h4>
+<p>Today 01:44 AM</p>
+</div>
+
+<div class="ml-[170px]">
+
+    <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+
+</div>
+</div>
+
+
+
+</div>
+<div class="bill-card mb-3">
+
+<div class="   w-[402px] h-[71px] bg-[#0874f20d] flex gap-3 items-center">
+
+<div class=" flex flex-row justify-start items-center   rounded-[30px] h-[60px] w-[60px] bg-[#FFFFFF] ">
+<img class="h-[45px] w-[45px] ml-[7px]" src="./assets/purse1.png" alt="">
+
+
+
+
+</div>
+<!-- img div end -->
+<div>
+    <h4>Electricity Bill</h4>
+<p>Today 01:44 AM</p>
+</div>
+
+<div class="ml-[170px]">
+
+    <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+
+</div>
+</div>
+
+
+
+</div>
+<div class="bill-card mb-3">
+
+<div class="   w-[402px] h-[71px] bg-[#0874f20d] flex gap-3 items-center">
+
+<div class=" flex flex-row justify-start items-center   rounded-[30px] h-[60px] w-[60px] bg-[#FFFFFF] ">
+<img class="h-[45px] w-[45px] ml-[7px]" src="./assets/purse1.png" alt="">
+
+
+
+
+</div>
+<!-- img div end -->
+<div>
+    <h4>Electricity Bill</h4>
+<p>Today 01:44 AM</p>
+</div>
+
+<div class="ml-[170px]">
+
+    <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+
+</div>
+</div>
+
+
+
+</div>
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+</section>
+
+
+<!-- Transctions sectiom end here -->
 
 <script src="./home.js"></script>
 

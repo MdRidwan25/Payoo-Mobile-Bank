@@ -80,6 +80,11 @@ document.getElementById('cashout-btn').classList.add('bg-[#0874f20d]');
   document.getElementById('add-money-defult').classList.remove('bg-[#0874f20d]');
 document.getElementById('get-bonus-main').classList.remove('bg-[#0874f20d]');
 
+
+document.getElementById('pay-bill').classList.remove('bg-[#0874f20d]');
+document.getElementById('transactions-click').classList.remove('bg-[#0874f20d]')
+
+
 const cashoutBtn = document.getElementById('btn-add-withdraw');
 
 const accountNumber = document.getElementById('account-number').value
@@ -98,6 +103,9 @@ const cashOutPage = document.getElementById('cash-out');
 cashOutPage.style.display = 'block';
 
 
+const transactionsVisible = document.getElementById('transctions-form');
+
+transactionsVisible.style.display = 'none';
 
 
 })
@@ -116,6 +124,11 @@ document.getElementById('add-money-defult').addEventListener('click', function()
 document.getElementById('cashout-btn').classList.remove('bg-[#0874f20d]');
 
 document.getElementById('get-bonus-main').classList.remove('bg-[#0874f20d]');
+
+document.getElementById('pay-bill').classList.remove('bg-[#0874f20d]');
+document.getElementById('transactions-click').classList.remove('bg-[#0874f20d]')
+
+
 
 const addMoneyVisible = document.getElementById('add-money-main');
 
@@ -137,6 +150,9 @@ transferMoneyHide.style.display = 'none';
 
 
 
+const transactionsVisible = document.getElementById('transctions-form');
+
+transactionsVisible.style.display = 'none';
 
 
 
@@ -199,6 +215,10 @@ document.getElementById('cashout-btn').classList.remove('bg-[#0874f20d]');
 
 document.getElementById('get-bonus-main').classList.remove('bg-[#0874f20d]');
 
+document.getElementById('pay-bill').classList.remove('bg-[#0874f20d]');
+
+document.getElementById('transactions-click').classList.remove('bg-[#0874f20d]')
+
   const transferMoneyVisible = document.getElementById('transfer-main');
 
   transferMoneyVisible.style.display = 'block';
@@ -214,6 +234,9 @@ cashoutInvisible.style.display = 'none';
 
 
 
+const transactionsVisible = document.getElementById('transctions-form');
+
+transactionsVisible.style.display = 'none';
 
 
   
@@ -240,7 +263,8 @@ document.getElementById('cashout-btn').classList.remove('bg-[#0874f20d]');
 document.getElementById('get-bonus-main').classList.add('bg-[#0874f20d]');
 
 
-
+document.getElementById('pay-bill').classList.remove('bg-[#0874f20d]');
+document.getElementById('transactions-click').classList.remove('bg-[#0874f20d]')
 
 const getBonusVisible = document.getElementById('get-bonus')
 
@@ -263,5 +287,123 @@ cashoutInvisible.style.display = 'none';
 
 
   
+const transactionsVisible = document.getElementById('transctions-form');
+
+transactionsVisible.style.display = 'none';
+
+})
+
+
+
+// Pay Bill Function Here
+
+
+
+document.getElementById('pay-bill').addEventListener('click', function(){
+
+
+document.getElementById('add-money-defult').classList.remove('bg-[#0874f20d]');
+
+  document.getElementById('transfer-money').classList.remove('bg-[#0874f20d]');
+
+document.getElementById('cashout-btn').classList.remove('bg-[#0874f20d]');
+
+document.getElementById('get-bonus-main').classList.remove('bg-[#0874f20d]');
+
+document.getElementById('pay-bill').classList.add('bg-[#0874f20d]');
+
+document.getElementById('transactions-click').classList.remove('bg-[#0874f20d]')
+
+
+
+
+const PayBillVisible = document.getElementById('pay-bill-main');
+
+PayBillVisible.style.display = 'block';
+
+
+
+const getBonusVisible = document.getElementById('get-bonus')
+
+
+getBonusVisible.style.display = 'none';
+
+
+const transferMoneyVisible = document.getElementById('transfer-main');
+
+  transferMoneyVisible.style.display = 'none';
+
+const addMoneyInvisible = document.getElementById('add-money-main');
+
+
+addMoneyInvisible.style.display = 'none';
+
+const cashoutInvisible = document.getElementById('cash-out');
+
+cashoutInvisible.style.display = 'none';
+
+
+const transactionsVisible = document.getElementById('transctions-form');
+
+transactionsVisible.style.display = 'none';
+
+
+
+})
+
+
+// Transactions function here
+
+document.getElementById('transactions-click').addEventListener('click', function(){
+
+
+document.getElementById('add-money-defult').classList.remove('bg-[#0874f20d]');
+
+  document.getElementById('transfer-money').classList.remove('bg-[#0874f20d]');
+
+document.getElementById('cashout-btn').classList.remove('bg-[#0874f20d]');
+
+document.getElementById('get-bonus-main').classList.remove('bg-[#0874f20d]');
+
+document.getElementById('pay-bill').classList.remove('bg-[#0874f20d]');
+
+document.getElementById('transactions-click').classList.add('bg-[#0874f20d]')
+
+
+const transactionsVisible = document.getElementById('transctions-form');
+
+transactionsVisible.style.display = 'block';
+
+
+
+const PayBillVisible = document.getElementById('pay-bill-main');
+
+PayBillVisible.style.display = 'none';
+
+
+
+const getBonusVisible = document.getElementById('get-bonus')
+
+
+getBonusVisible.style.display = 'none';
+
+
+const transferMoneyVisible = document.getElementById('transfer-main');
+
+  transferMoneyVisible.style.display = 'none';
+
+const addMoneyInvisible = document.getElementById('add-money-main');
+
+
+addMoneyInvisible.style.display = 'none';
+
+const cashoutInvisible = document.getElementById('cash-out');
+
+cashoutInvisible.style.display = 'none';
+
+
+
+
+
 
 })
