@@ -87,6 +87,12 @@ document.getElementById('transactions-click').classList.remove('bg-[#0874f20d]')
 
 const cashoutBtn = document.getElementById('btn-add-withdraw');
 
+
+
+
+
+
+
 const accountNumber = document.getElementById('account-number').value
 
 
@@ -106,6 +112,19 @@ cashOutPage.style.display = 'block';
 const transactionsVisible = document.getElementById('transctions-form');
 
 transactionsVisible.style.display = 'none';
+
+
+
+const getBonusVisible = document.getElementById('get-bonus')
+
+
+getBonusVisible.style.display = 'none';
+
+const PayBillVisible = document.getElementById('pay-bill-main');
+
+PayBillVisible.style.display = 'none';
+
+
 
 
 })
@@ -147,14 +166,19 @@ transferMoneyHide.style.display = 'none';
 
 
 
+const getBonusVisible = document.getElementById('get-bonus')
 
+
+getBonusVisible.style.display = 'none';
 
 
 const transactionsVisible = document.getElementById('transctions-form');
 
 transactionsVisible.style.display = 'none';
 
+const PayBillVisible = document.getElementById('pay-bill-main');
 
+PayBillVisible.style.display = 'none';
 
 
 })
@@ -198,6 +222,8 @@ if(cashoutAlert){
 }
 
 
+
+
 })
 
 
@@ -238,9 +264,14 @@ const transactionsVisible = document.getElementById('transctions-form');
 
 transactionsVisible.style.display = 'none';
 
+const getBonusVisible = document.getElementById('get-bonus')
 
+
+getBonusVisible.style.display = 'none';
   
+const PayBillVisible = document.getElementById('pay-bill-main');
 
+PayBillVisible.style.display = 'none';
 
 })
 
@@ -290,6 +321,13 @@ cashoutInvisible.style.display = 'none';
 const transactionsVisible = document.getElementById('transctions-form');
 
 transactionsVisible.style.display = 'none';
+
+
+const PayBillVisible = document.getElementById('pay-bill-main');
+
+PayBillVisible.style.display = 'none';
+
+
 
 })
 
