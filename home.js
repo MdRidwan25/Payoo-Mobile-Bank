@@ -9,7 +9,9 @@ document.getElementById('btn-add-money').addEventListener('click', function(){
   const addMoneyBtn = document.getElementById('btn-add-money');
 
 
-const bankSelect = document.getElementById('bank-select');
+const bankSelect = document.getElementById('bank-select').value;
+
+
 
 const accountNumber = document.getElementById('account-number').value
 
